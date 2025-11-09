@@ -1,0 +1,78 @@
+body {
+    margin: 0;
+    font-family: "playfair display", serif;
+    background-color: #EFE2D6;
+    color: #000;
+  }
+  
+ 
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #EFE2D6;
+    padding: 20px 60px;
+    position: relative;
+    z-index: 10;
+    height: 100px;
+  }
+  
+  .nav-links {
+    display: flex;
+    list-style: none;
+    gap: 200px;
+    margin: 0;
+    padding: 0;
+    font-size: 30px;
+    margin-top: 5%;
+  }
+  
+  .nav-links a {
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+    letter-spacing: 1px;
+  }
+  
+  .logo {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 20;
+  }
+  
+  .logo img {
+    height: 320px; 
+    position: relative;
+    top: -24px; 
+  }
+  
+ 
+  .hero img {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+  
+  
+  .about {
+    text-align: center;
+    padding: 80px 50px;
+    background-color: #EFE2D6;
+    color: #000;
+  }
+  
+  .about h2 {
+    font-size: 50px;
+    margin-bottom: 60px;
+    font-weight: 100;
+  }
+  
+  .about p {
+    font-family: "Playfair Display", serif;
+    max-width: 1000px;
+    margin: 0 auto;
+    line-height: 1.5;
+    font-size: 25px;
+  }
